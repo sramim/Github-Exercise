@@ -13,13 +13,13 @@ struct ContentView: View {
             Image(systemName: "3.circle")
                 .resizable()
                 .scaledToFit()
-            Text("V 3.0")
+            Text("V 4.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
             Rectangle()
         }
         .padding()
-        .foregroundColor(.blue)
+        .foregroundColor(.purple)
     }
 }
 
